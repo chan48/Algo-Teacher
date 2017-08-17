@@ -12,6 +12,7 @@ import '../graph.html';
 import '../set.html';
 import '../stack.html';
 import '../linked.html';
+import '../tree.html';
 // 의존하고 있는 3rd 라이브러리 및 프레임워크 모음
 import 'jquery';
 
@@ -29,6 +30,7 @@ import Linearsearch from './modules/Linearsearch';
 import Chaining from './modules/Chaining';
 import Graph from './modules/Graph';
 import { Setbasic, intersectionSet, unionSet } from './modules/Set';
+import Tree from './modules/Tree';
 
 // 모든 페이지 공통 스크롤 이벤트
 scroll.ScrollMoving();
@@ -53,3 +55,6 @@ Graph.event();
   Setbasic.init();
   intersectionSet.init();
   unionSet.init();
+
+// 트리
+Tree.init();
